@@ -24,6 +24,7 @@ body {
 
 #author {
   align-self: flex-end;
+  color:rgb(76, 76, 121)
 }
 
 #button-container {
@@ -31,4 +32,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#text {
+  font-size: 35px;
+  color: rgb(13, 13, 44);
+}
+
+#tweet-quote {
+  color: rgb(49, 49, 83);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button {
+  background-color: rgb(49, 49, 83);
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-style: none;
+  border-radius: 7px;
+  font-size: 20px;
+  cursor: pointer;
 }
